@@ -5,6 +5,9 @@
   "author": "Daniel Zelaya <wupaz9@gmail.com> (https://github.com/danielzy95)",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "plop"
+  },
   "dependencies": {
     "dotenv": "5.0.0",
     "plop": "1.9.1"
