@@ -1,0 +1,12 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Daniel Zelaya <wupaz9@gmail.com> (https://github.com/danielzy95)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "5.0.0",
+    "plop": "1.9.1"
+  }
+}
