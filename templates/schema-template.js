@@ -3,7 +3,7 @@ const { Types } = keystone.Field;
 const {
   createRelationshipField,
   createModuleTypeField,
-  createStateField
+  createStateField,
 } = require('../../helpers/model-common');
 
 module.exports = {};
