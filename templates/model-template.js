@@ -8,7 +8,7 @@ const {{properCase name}} = new keystone.List(modelName, {});
 
 {{properCase name}}.add(schema);
 
-{{properCase name}}.schema.pre('save', next => { next(); });
+{{properCase name}}.schema.pre('save', function (next) { next(); });
 
 {{properCase name}}.schema.post('save', saveVersion(modelName, schema));
 
