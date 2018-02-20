@@ -1,5 +1,5 @@
 const keystone = require('acklen-keystone');
-const schema = require('./{{properCase name}}Schema');
+const schema = require('./{{properCase name}}Schema')();
 const { saveVersion } = require('../../helpers/model-common');
 
 const modelName = '{{properCase name}}';

@@ -6,4 +6,4 @@ const {
   createStateField,
 } = require('../../helpers/model-common');
 
-module.exports = {};
+module.exports = () => ({});
